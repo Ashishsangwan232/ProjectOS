@@ -110,6 +110,8 @@ class StandardApp(tk.Tk):
         ttk.Button(frame, text="Read Directory", command=self.ask_read_dir).pack(side="left", padx=5)
         ttk.Button(frame, text="Create File", command=self.ask_create_file).pack(side="left", padx=5)
         
+
+        
         # Admin Button
         state = "normal" if self.current_role == "admin" else "disabled"
         ttk.Button(frame, text="Terminate Process (Admin)", state=state, command=self.ask_terminate).pack(side="left", padx=5)

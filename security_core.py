@@ -94,11 +94,6 @@ class AnomalyDetector:
 
 
 
-
-
-
-
-
 class SyscallWrapper:
     def __init__(self, db, detector):
         self.db = db

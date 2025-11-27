@@ -52,6 +52,8 @@ Attempts to access sensitive system files (e.g., System32) trigger alerts.
 
 Live Audit Logging:
 
+
+
 Every action—successful or blocked—is recorded in a tamper-evident local database (syscall_security.db).
 
 Visual Analytics:
