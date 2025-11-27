@@ -189,6 +189,7 @@ class StandardApp(tk.Tk):
         for widget in self.chart_frame.winfo_children():
             widget.destroy()
 
+
         logs = self.db.fetch_logs()
         if not logs: return
 

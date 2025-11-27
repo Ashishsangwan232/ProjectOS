@@ -56,6 +56,8 @@ Every action—successful or blocked—is recorded in a tamper-evident local dat
 
 Visual Analytics:
 
+
+
 Real-time dashboard showing "Action Distribution" and "Threat Intensity."
 
 
