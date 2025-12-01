@@ -7,12 +7,10 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
 
 from collections import Counter
-
 # Import Logic Module
 import security_core
-
 class StandardApp(tk.Tk):
-    
+
     def __init__(self):
         super().__init__()
         self.title("Secure System Call Interface")
