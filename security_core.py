@@ -14,13 +14,14 @@ except ImportError:
 DB_FILE = 'syscall_security.db'
 
 class SecurityDatabase:
-    
+
     def __init__(self):
 
         self.conn = sqlite3.connect(DB_FILE, check_same_thread=False)
         self._setup_db()
 
     def _setup_db(self):
+        
         c = self.conn.cursor()
         c.execute('''CREATE TABLE IF NOT EXISTS users 
                      (username TEXT PRIMARY KEY, hash TEXT, salt TEXT, role TEXT)''')
